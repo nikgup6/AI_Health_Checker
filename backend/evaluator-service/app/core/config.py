@@ -7,7 +7,7 @@ load_dotenv()
 class Settings:
     DB_URL: str = os.getenv(
         "DB_URL",
-        "postgresql://postgres:root@localhost:5432/healthguard"
+        "postgresql://ai_health_db_zuw2_user:aD2TEwCndmyrrVhqHWCok8AKd1VMhizf@dpg-d4inpqqdbo4c73bt4lj0-a.oregon-postgres.render.com/ai_health_db_zuw2"
     )
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     GEMINI_JUDGE_MODEL: str = os.getenv("GEMINI_JUDGE_MODEL", "gemini-2.0-flash")
