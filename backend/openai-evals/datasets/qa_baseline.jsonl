@@ -1,0 +1,5 @@
+{"id": "q1", "prompt": "What is AI model health?", "reference": "AI model health is a measure of how reliably and safely an AI model is performing over time, including quality, accuracy, safety, latency, and drift."}
+{"id": "q2", "prompt": "Explain overfitting in simple terms.", "reference": "Overfitting is when a model learns the training data too well, including the noise, and performs poorly on new, unseen data."}
+{"id": "q3", "prompt": "What is a hallucination in LLMs?", "reference": "A hallucination is when a language model generates confident but factually incorrect or unsupported information."}
+{"id": "q4", "prompt": "Why is monitoring AI models in production important?", "reference": "Monitoring ensures models stay accurate, safe, and reliable as data changes, and helps detect drift, failures, or harmful behavior early."}
+{"id": "q5", "prompt": "Describe the purpose of an AI health score.", "reference": "An AI health score aggregates multiple signals like factuality, relevance, coherence, safety, latency, and calibration into one interpretable metric."}

@@ -1,0 +1,19 @@
+# Which model we are evaluating (the "model under test")
+target:
+  model_name: "gemini-2.0-flash"
+
+# Which model we use as a judge (LLM-as-a-judge)
+judge:
+  model_name: "gemini-2.0-flash"
+
+# Dataset for evaluation
+dataset:
+  path: "datasets/qa_baseline.jsonl"
+
+# Latency normalization (for health score)
+latency:
+  max_ms: 3000   # we treat anything >= 3000 ms as worst case (normalized 1.0)
+
+# Output report
+output:
+  path: "eval_report.json"
