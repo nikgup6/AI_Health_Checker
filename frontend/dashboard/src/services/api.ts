@@ -4,7 +4,7 @@ import axios from "axios";
 // Why?
 // Centralizes our backend URL. If later you deploy evaluator-service
 // somewhere else, you only change this file.
-const API_BASE_URL = "http://localhost:8001/api/v1";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8001/api/v1";
 
 export const api = axios.create({
     baseURL: API_BASE_URL,
